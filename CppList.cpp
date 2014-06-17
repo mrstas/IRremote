@@ -6,7 +6,8 @@
 CppList::CppList()
 {
 	_count = 0;
-	_maxCount = 2;
+	_maxCount = 2;   // Change me for more IR recivers!!!!
+			//   (Now it configured for 2)
 	_arr = (void**)malloc(_maxCount*sizeof(void*));
 	memset(_arr,0,_maxCount*sizeof(void*));
 }
