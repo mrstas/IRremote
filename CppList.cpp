@@ -6,7 +6,7 @@
 CppList::CppList()
 {
 	_count = 0;
-	_maxCount = 1;
+	_maxCount = 2;
 	_arr = (void**)malloc(_maxCount*sizeof(void*));
 	memset(_arr,0,_maxCount*sizeof(void*));
 }
