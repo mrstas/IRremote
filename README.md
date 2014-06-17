@@ -1,4 +1,4 @@
-IRremote for multiple receiver
+IRremote for multiple IR receivers
 ====
 Allow arduino read data from multiple IR receivers
 
